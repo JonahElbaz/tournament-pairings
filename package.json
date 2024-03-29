@@ -1,16 +1,14 @@
 {
-    "name": "tournament-pairings",
+    "name": "@internal/contest",
     "version": "1.5.2",
     "description": "Functions to generate pairings for tournaments ",
     "main": "./dist/index.js",
     "files": [
         "dist/**/*"
     ],
-    "type": "module",
     "types": "./dist/index.d.ts",
     "scripts": {
-        "build": "rm -rf dist/* && tsc -p tsconfig.json && rollup --config rollup.config.ts --configPlugin typescript",
-        "test": "mocha"
+        "build": "rm -rf dist/* && tsc -p tsconfig.json && rollup --config rollup.config.ts --configPlugin typescript"
     },
     "repository": {
         "type": "git",
